@@ -1,0 +1,22 @@
+{
+  "name": "top_social_client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch ./data/db.json --port 3001"
+  },
+  "devDependencies": {
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "json-server": "^0.17.3",
+    "normalize.css": "^8.0.1",
+    "path-browserify": "^1.0.1",
+    "vite-plugin-top-level-await": "^1.3.1"
+  }
+}
